@@ -331,6 +331,23 @@ class Matriz2{
 					matrizresult[1][2]=a23;
 					mostrarMatrizResult(x,yb);
 				}
+					//1x1 //1x1
+				if(x==1 && y==1 && xb==1 && yb==1){
+					matrizresult=new int[x][yb];
+				}
+					//1x1 //1x2
+				if(x==1 && y==1 && xb==1 && yb==1){
+					matrizresult=new int[x][yb];
+				}
+					//1x1 //1x3
+				if(x==1 && y==1 && xb==1 && yb==3){
+					matrizresult=new int[x][yb];
+				}
+					//1x1 //1x4
+				if(x==1 && y==1 && xb==1 && yb==4){
+					matrizresult=new int[x][yb];
+				}
+		
 			}
 			if(multiplicar==5 && y!=xb){
 				System.out.println("O numero de COLUNAS de A nao e igual o numero de LINHAS de B");
