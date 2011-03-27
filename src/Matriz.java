@@ -347,7 +347,6 @@ class Matriz2{
 				if(x==1 && y==1 && xb==1 && yb==4){
 					matrizresult=new int[x][yb];
 				}
-				// teste
 		
 			}
 			if(multiplicar==5 && y!=xb){
